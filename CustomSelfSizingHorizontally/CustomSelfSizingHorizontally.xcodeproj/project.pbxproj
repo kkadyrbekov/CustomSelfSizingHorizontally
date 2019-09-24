@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		1D09B608233A2C91005B1AD6 /* CustomSelfSizingHorizontally.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D09B606233A2C91005B1AD6 /* CustomSelfSizingHorizontally.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D09B60F233A37E2005B1AD6 /* SelfSizingHorizontallyCustomLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D09B60E233A37E2005B1AD6 /* SelfSizingHorizontallyCustomLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1D09B603233A2C91005B1AD6 /* CustomSelfSizingHorizontally.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CustomSelfSizingHorizontally.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D09B606233A2C91005B1AD6 /* CustomSelfSizingHorizontally.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomSelfSizingHorizontally.h; sourceTree = "<group>"; };
 		1D09B607233A2C91005B1AD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D09B60E233A37E2005B1AD6 /* SelfSizingHorizontallyCustomLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfSizingHorizontallyCustomLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 		1D09B605233A2C91005B1AD6 /* CustomSelfSizingHorizontally */ = {
 			isa = PBXGroup;
 			children = (
+				1D09B60E233A37E2005B1AD6 /* SelfSizingHorizontallyCustomLayout.swift */,
 				1D09B606233A2C91005B1AD6 /* CustomSelfSizingHorizontally.h */,
 				1D09B607233A2C91005B1AD6 /* Info.plist */,
 			);
@@ -95,6 +98,7 @@
 				TargetAttributes = {
 					1D09B602233A2C91005B1AD6 = {
 						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
 					};
 				};
 			};
@@ -130,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D09B60F233A37E2005B1AD6 /* SelfSizingHorizontallyCustomLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +266,7 @@
 		1D09B60C233A2C91005B1AD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -277,6 +283,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = kuba.com.CustomSelfSizingHorizontally;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -285,6 +292,7 @@
 		1D09B60D233A2C91005B1AD6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
