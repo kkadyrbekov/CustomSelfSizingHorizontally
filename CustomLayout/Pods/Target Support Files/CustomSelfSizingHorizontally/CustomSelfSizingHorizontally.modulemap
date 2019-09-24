@@ -1,0 +1,6 @@
+framework module CustomSelfSizingHorizontally {
+  umbrella header "CustomSelfSizingHorizontally-umbrella.h"
+
+  export *
+  module * { export * }
+}

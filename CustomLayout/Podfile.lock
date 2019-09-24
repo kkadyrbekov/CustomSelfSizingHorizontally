@@ -1,0 +1,16 @@
+PODS:
+  - CustomSelfSizingHorizontally (1.0.0)
+
+DEPENDENCIES:
+  - CustomSelfSizingHorizontally (from `/Users/rahmetmobile/Developer/TestProjects/CustomSelfSizingHorizontally/CustomSelfSizingHorizontally`)
+
+EXTERNAL SOURCES:
+  CustomSelfSizingHorizontally:
+    :path: "/Users/rahmetmobile/Developer/TestProjects/CustomSelfSizingHorizontally/CustomSelfSizingHorizontally"
+
+SPEC CHECKSUMS:
+  CustomSelfSizingHorizontally: 48bab1a9d3c81407e3f0d6d0c698d2837879f56e
+
+PODFILE CHECKSUM: 9088a095dadd8dbf9829595cdd87b6db45be7b63
+
+COCOAPODS: 1.7.5
