@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "Kuba Kadyrbekov" => "k.kadyrbekov95@gmail.com" }
   spec.platform     = :ios, "12.0"
   spec.source       = { :git => "https://github.com/progi95/CustomSelfSizingHorizontally.git", :tag => "1.0.3" }
-  spec.source_files  = "CustomSelfSizingHorizontally/*.{h,m,swift}"
+  spec.source_files  = "CustomSelfSizingHorizontally/CustomSelfSizingHorizontally"
   spec.exclude_files = "CustomSelfSizingHorizontally/Exclude"
 
 end
