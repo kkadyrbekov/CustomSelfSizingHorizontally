@@ -1,0 +1,16 @@
+PODS:
+  - CustomSelfSizingHorizontally (1.0.3)
+
+DEPENDENCIES:
+  - CustomSelfSizingHorizontally
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CustomSelfSizingHorizontally
+
+SPEC CHECKSUMS:
+  CustomSelfSizingHorizontally: 97b693211cbe9dd42ac6a9f742d3a56a0c4a0ac1
+
+PODFILE CHECKSUM: 58838a8fc20e2c833555afbbd441583053294187
+
+COCOAPODS: 1.7.5
