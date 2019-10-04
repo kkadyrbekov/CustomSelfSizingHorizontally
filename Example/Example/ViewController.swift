@@ -35,7 +35,7 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource, 
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "TagsCollectionViewCell", for: indexPath) as! TagsCollectionViewCell
-        cell.textLabel.text = "\(tags[indexPath.row]) (\(indexPath.row))"
+        cell.setupWith(tag: tags[indexPath.row], index: indexPath.row)
         return cell
     }
 }

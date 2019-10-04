@@ -14,8 +14,12 @@ class TagsCollectionViewCell: UICollectionViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        layer.cornerRadius = frame.height / 2
         layer.borderWidth = 1.0
         layer.borderColor = UIColor(red: 0.13, green: 0.71, blue: 0.45, alpha: 1.0).cgColor
+    }
+    
+    func setupWith(tag: String, index: Int) {
+        layer.cornerRadius = frame.height / 2
+        textLabel.text = "\(tag) (\(index))"
     }
 }
