@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "CustomSelfSizingHorizontally"
-  spec.version      = "1.0.3"
+  spec.version      = "1.0.4"
   spec.summary      = "Custom CollectionView Layout"
   spec.description  = "Cache attributes and dynamically size cells. (Horizontally)"
   spec.homepage     = "https://github.com/progi95/CustomSelfSizingHorizontally"
